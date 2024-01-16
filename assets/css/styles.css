@@ -1162,8 +1162,8 @@ img {
    .stack {
     display: grid;
     grid-template-columns: 50px 50px 50px;
-    grid-column-gap: 45px;
-    grid-row-gap: 30px;
+    grid-column-gap: 60px;
+    grid-row-gap: 37px;
     align-content: center;
     justify-content: center;
     overflow-x: hidden;
@@ -1187,8 +1187,8 @@ img {
   @media screen and (max-width: 768px) {
     .home__img {
       width: 100px;
-      margin-bottom: 12rem;
-      margin-left: -80px;
+      margin-bottom: 8.6rem;
+      margin-left: -180px;
       align-content: center;
   
     }
