@@ -14,7 +14,7 @@
 
 /*===== PRIMARY COLORS =====*/
 :root {
-  --first-color: #ff4500;
+  --first-color: #FFA500;
   --second-color: #0e2431;
 }
 
@@ -28,7 +28,7 @@
   --text-color: #0e2431;
   --second-text-color: #fff;
   --button-text-color: #0e2431;
-  --first-color-ball: #ff4500;
+  --first-color-ball: #FFA500;
   --normal-font-size: 0.938rem;
   --shadow-header: 0 1px 4px rgba(146, 161, 176, 0.15);
   --shadow-footer: 4px 1px 4px rgba(146, 161, 176, 0.15);
@@ -583,13 +583,23 @@ img {
 /* ===== SKILLS =====*/
 
 .skills__container {
-    row-gap: 2rem;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+   
 }
-  .stack {
+.stack {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__img {
+  width: 80px;
+  height: 80px;
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px)  {
