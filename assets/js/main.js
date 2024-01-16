@@ -116,10 +116,8 @@ ScrollReveal().reveal('.skills__container .resume__col--2', {
 // typing text animation script
 var typed = new Typed('.type', {
   strings: [
-    'A FullStack Software Engineer',
-    'An IT Systems Engineer',
-    'A Mobile App Developer',
-    'An IT Consultant',
+    'A Product Manager',
+    'A Scrum Master',
   ],
   typeSpeed: 150,
   backSpeed: 60,
@@ -160,25 +158,25 @@ themeToggle.addEventListener('click', () => {
 
 // Begin :Whatsapp Link
 
-;(function () {
-  var options = {
-    whatsapp: '+2348112785465', // WhatsApp number
-    call_to_action: "I'm your best 🔌, Send me a Private message", // Call to action
-    position: 'left', // Position may be 'right' or 'left'
-  }
-  var proto = document.location.protocol,
-    host = 'getbutton.io',
-    url = proto + '//static.' + host
-  var s = document.createElement('script')
-  s.type = 'text/javascript'
-  s.async = true
-  s.src = url + '/widget-send-button/js/init.js'
-  s.onload = function () {
-    WhWidgetSendButton.init(host, proto, options)
-  }
-  var x = document.getElementsByTagName('script')[0]
-  x.parentNode.insertBefore(s, x)
-})()
+// ;(function () {
+//   var options = {
+//     whatsapp: '+2348030364541', // WhatsApp number
+//     call_to_action: "I'm your best 🔌, Send me a Private message", // Call to action
+//     position: 'left', // Position may be 'right' or 'left'
+//   }
+//   var proto = document.location.protocol,
+//     host = 'getbutton.io',
+//     url = proto + '//static.' + host
+//   var s = document.createElement('script')
+//   s.type = 'text/javascript'
+//   s.async = true
+//   s.src = url + '/widget-send-button/js/init.js'
+//   s.onload = function () {
+//     WhWidgetSendButton.init(host, proto, options)
+//   }
+//   var x = document.getElementsByTagName('script')[0]
+//   x.parentNode.insertBefore(s, x)
+// })()
 
 //End: Whatsapp Link
 

@@ -1,8 +1,8 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
 /*===== VARIABLES CSS =====*/
@@ -14,7 +14,7 @@
 
 /*===== PRIMARY COLORS =====*/
 :root {
-  --first-color: #FFA500;
+  --first-color: #ef9d04;
   --second-color: #0e2431;
 }
 
@@ -24,11 +24,11 @@
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 2.5rem;
-  --section-font-family: 'Irish Grover', cursive;
+  --section-font-family: 
   --text-color: #0e2431;
   --second-text-color: #fff;
   --button-text-color: #0e2431;
-  --first-color-ball: #FFA500;
+  --first-color-ball: #ef9d04;
   --normal-font-size: 0.938rem;
   --shadow-header: 0 1px 4px rgba(146, 161, 176, 0.15);
   --shadow-footer: 4px 1px 4px rgba(146, 161, 176, 0.15);
@@ -270,7 +270,7 @@ img {
 /*===== NAV =====*/
 
 .nav__logo {
-  font-size: 40px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 20px;
   
@@ -598,7 +598,7 @@ img {
 }
 
 .skills__img {
-  width: 80px;
+  width: 100px;
   height: 80px;
 }
 
