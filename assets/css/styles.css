@@ -696,12 +696,17 @@ img {
   margin-top: -8px;
 }
 
+.ongoing {
+  display: flex;
+  justify-content: space-between;
+}
+
 .projects__btn .button {
   position: relative;
-  left: 77%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
+  font-size: 20px
 }
 
 .projects__box .fa-github {
@@ -718,47 +723,14 @@ img {
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   .projects__btn .button {
-    position: relative;
-    left: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
   }
-}
-
-/* ===== BLOG =====*/
-
-.blog {
-  margin-bottom: auto;
-}
-
-.blog .subtitle {
-  font-size: 20px;
-}
-
-.blog .subtitle i {
-  color: var(--first-color);
-}
-
-.blog-content p{
-  font-size: 15px;
-}
-
-.blog .section-title::after {
-  position: absolute;
-  content: "";
-  width: 60px;
-  height: 0.1rem;
-  left: 0;
-  right: 0;
-  top: 2.2rem;
-  background-color: var(--first-color);
-}
-
-@media screen and (min-width: 240px) and (max-width: 480px) {
-  .blog .subtitle, .blog-content p {
-    text-align: center;
-    font-size: 15px;
-  }
-  .blog .section-title::after {
-    top: 3.0rem;
+  .ongoing {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
   }
 }
 
