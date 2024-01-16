@@ -432,6 +432,7 @@ img {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
   color: var(--text-color);
+  font-family: var(--section-font-family)
 }
 
 .home__data a{
