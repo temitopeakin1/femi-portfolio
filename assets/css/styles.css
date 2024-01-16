@@ -24,7 +24,7 @@
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 2.5rem;
-  --section-font-family: 
+  --section-font-family: "Comfortaa", sans-serif;
   --text-color: #0e2431;
   --second-text-color: #fff;
   --button-text-color: #0e2431;
@@ -541,6 +541,10 @@ img {
   border-radius: 1.5rem;
 }
 
+.button i {
+  padding-left: 5px;
+}
+
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
   background: var(--button-text-color);
@@ -965,14 +969,12 @@ img {
 }
 
 
-
-
 /* ===== FOOTER =====*/
 .footer {
   background-color: hsl(220, 29%, 10%);
   color: #ffff;
   text-align: center;
-  font-family: 'Irish Grover', cursive;;
+  font-family: "Righteous", sans-serif;;
   padding: 2rem 0;
   margin-top: 50px;
 }
